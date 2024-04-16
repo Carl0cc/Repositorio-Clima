@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="division_nav">
+            <h1>Tiempo Local</h1>
+        </div>
+        <div class="division_nav">
+            <a href="#" id="clickosorno">Osorno</a>
+            <a href="#" id="clickriobueno">Rio bueno</a>
+            <a href="#" id="clickentrelagos">Entre lagos</a>
+            <a href="#" id="clicklaunion">La union</a>
+            <a href="#" id="clickpuertomontt">Puerto Montt</a>
+        </div>
+        <div class="division_nav">
+            <p>Mostrar temperatura en</p>
+            <select name="Grados" id="grados">
+                <option value="celcius">°C</option>
+                <option value="Fahren">°F</option>
+            </select>
+        </div>
+    </nav>
+    <div class="contenido" id="Osorno">
+       <div class="nombre_ciudad">
+            <h1>Osorno</h1>
+        </div>
+        <div class="dias_clima">
+            <div class="dia">
+                <div class="dia_arriba">
+                    <img src="img/soleado.png" alt="soleado" class="imagenes">
+                </div>
+                <div class="dia_abajo">
+                    <h4>Hoy</h4>
+                    <p>soleado</p>
+                    <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                </div>
+            </div>
+            <div class="dia">
+                <div class="dia_arriba">
+                    <img src="img/soleado.png" alt="soleado" class="imagenes">
+                </div>
+                <div class="dia_abajo">
+                    <h4>Mañana</h4>
+                    <p>soleado</p>
+                    <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                </div>
+            </div>
+            <div class="dia">
+                <div class="dia_arriba">
+                    <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                </div>
+                <div class="dia_abajo">
+                    <h4>Miercoles</h4>
+                    <p>Nublado</p>
+                    <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                </div>
+            </div>
+            <div class="dia">
+                <div class="dia_arriba">
+                    <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                </div>
+                <div class="dia_abajo">
+                    <h4>jueves</h4>
+                    <p>Nublado</p>
+                    <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                </div>
+            </div>
+            <div class="dia">
+                <div class="dia_arriba">
+                    <img src="img/lluvia.png" alt="lluvia" class="imagenes">
+                </div>
+                <div class="dia_abajo">
+                    <h4>Hoy</h4>
+                    <p>Lluvia</p>
+                    <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="contenido" id="Riobueno">
+        <div class="nombre_ciudad">
+             <h1>Rio Bueno</h1>
+         </div>
+         <div class="dias_clima">
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/lluvia.png" alt="lluvia" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Hoy</h4>
+                     <p>Lluvia</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/lluvia.png" alt="lluvia" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Mañana</h4>
+                     <p>lluvia</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Miercoles</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>jueves</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/soleado.png" alt="soleado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Viernes</h4>
+                     <p>soleado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+         </div>
+     </div> 
+     <div class="contenido" id="Entrelagos">
+        <div class="nombre_ciudad">
+             <h1>Entre Lagos</h1>
+         </div>
+         <div class="dias_clima">
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/lluvia.png" alt="lluvia" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Hoy</h4>
+                     <p>Lluvia</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Mañana</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/soleado.png" alt="soleado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Miercoles</h4>
+                     <p>soleado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>jueves</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/lluvia.png" alt="lluvia" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Viernes</h4>
+                     <p>Lluvia</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+         </div>
+     </div> 
+     <div class="contenido" id="Launion">
+        <div class="nombre_ciudad">
+             <h1>La Union</h1>
+         </div>
+         <div class="dias_clima">
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/soleado.png" alt="soleado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Hoy</h4>
+                     <p>Soleado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Mañana</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/lluvia.png" alt="lluvia" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Miercoles</h4>
+                     <p>Lluvia</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>jueves</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/lluvia.png" alt="lluvia" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Viernes</h4>
+                     <p>Lluvia</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+         </div>
+     </div> 
+     <div class="contenido" id="Puertomontt">
+        <div class="nombre_ciudad">
+             <h1>Puerto Montt</h1>
+         </div>
+         <div class="dias_clima">
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Hoy</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/nublado.png" alt="Nublado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Mañana</h4>
+                     <p>Nublado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/soleado.png" alt="soleado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Miercoles</h4>
+                     <p>soleado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/soleado.png" alt="soleado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>jueves</h4>
+                     <p>soleado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+             <div class="dia">
+                 <div class="dia_arriba">
+                     <img src="img/soleado.png" alt="soleado" class="imagenes">
+                 </div>
+                 <div class="dia_abajo">
+                     <h4>Viernes</h4>
+                     <p>soleado</p>
+                     <p><span class="cantidad_grados">10</span><span class="tipo_grado">°C</span> <span class="cantidad_grados">15</span><span class="tipo_grado">°C</span></p>
+                 </div>
+             </div>
+         </div>
+     </div> 
+    <footer id="footer">
+        Detente! tiempo de cookies, usamos cookies(tristementes no comestibles) para personalizar contenido y anuncios. proporcionar funciones de redes sociales y analizar nuestro <a href="#">leer mas</a>
+        <button type="button" id="boton_cookies">Acepto</button>
+    </footer>
+</body>
+</html>

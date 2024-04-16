@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(0, 169, 73);
+    display: flex;
+    flex-direction: column;
+
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+nav div a{
+    text-decoration: none;
+    color: white;
+    padding:5px;
+}
+.division_nav{
+    height: 33.3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    bottom: 0%;
+    color: white;
+}
+.contenido{
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.nombre_ciudad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+.nombre_ciudad h1{
+    font-size: 250%;
+}
+.dias_clima{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.dia{
+    background-color: rgb(255, 255, 255);
+    width: 12%;
+    height: 50%;
+    margin: 10px;
+    box-shadow: 0 5px 10px rgb(0,0,0,1);
+    border-radius: 10px;
+    border: 3px solid rgb(202, 202, 202);
+}
+.dia_arriba{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dia_abajo{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dia img{
+    height: 100%;
+    width: 60%;
+}
+.dia_abajo h4{
+    margin: 0%;
+    margin-top: 10%;
+    font-size: 140%;
+}
+.dia_abajo p{
+    font-size: 130%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer button{
+    margin-left: 10%;
+    background-color: orange;
+    height: 70%;
+    width: 5%;
+}
+.contenido{
+    display: none;
+}
